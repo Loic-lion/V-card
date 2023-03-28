@@ -1,0 +1,90 @@
+.V-card-global {
+    background-color: rgb(73, 150, 73);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(73, 150, 73);
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .gauche {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .droite {
+    flex-basis: 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+  }
+  
+  .img-gauche {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .name {
+    font-size: 2em;
+    margin-top: 0;
+    
+  }
+  
+  .job {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  .description {
+    font-size: 1em;
+  }
+  
+  .link {
+    display: flex;
+    font-size: 1.5em;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #a8a8a8cc;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .link:hover {
+    background-color: #757575e8;
+  }
+
+  p, h1 {
+    text-align: center
+  }
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+
+}
+img {
+    display: block;
+    margin-bottom: 0;
+  }
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(255, 255, 255);
+  }
