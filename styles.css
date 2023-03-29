@@ -6,8 +6,6 @@
     max-width: 800px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
   }
@@ -15,17 +13,17 @@
   .gauche {
     flex-basis: 50%;
     max-width: 50%;
+    display: flex;
+    position: relative;
   }
   
   .droite {
     flex-basis: 50%;
     max-width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
-    align-content: space-evenly;
   }
   
   .img-gauche {
@@ -56,15 +54,16 @@
     margin-right: 10px;
     width: 45px;
     height: 45px;
-    background-color: #a8a8a8cc;
+    background-color: #f7f7f7cc;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   }
 
   .link:hover {
-    background-color: #757575e8;
+    background-color: #b4b4b4e8;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0);  
   }
 
   p, h1 {
@@ -73,7 +72,7 @@
 
 .social {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .info {
@@ -87,4 +86,14 @@ img {
 body {
     font-family: "Fira Sans", sans-serif;
     color: rgb(255, 255, 255);
+  }
+.info-gauche {
+    position: absolute;
+    top: 68%;
+    left: 4%;
+    font-size: 12px;
+    color: #333;
+  }
+.para-info-gauche {
+    line-height: 0.3;
   }
